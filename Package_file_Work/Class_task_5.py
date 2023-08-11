@@ -12,12 +12,9 @@ from Class_task_4 import auto_create_file
 
 def file_genereid(**kwargs):
     parametr_extension = locals().get('kwargs')
-    print(parametr_extension)
     for i in parametr_extension:
         exten = i
         count_file = int(parametr_extension.get(i))
-        print(i)
-        print(count_file)
         auto_create_file(extension_file=exten, min_len=4, max_len=4, min_byte=4, max_byte=4, quantity_file=count_file)
 
 

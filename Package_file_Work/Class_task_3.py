@@ -40,7 +40,6 @@ def generalization_file(digit_file: str, name_file: str):
             else:
                 temp_all = temp_name.upper() + ' ' + str(round(temp_digit))
             final_file.append(temp_all)
-    print(final_file)        
     with open('final_file.txt', 'w', encoding='utf-8') as f:
         for h in final_file:
             f.write(f'{h}, \n')
