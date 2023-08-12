@@ -14,4 +14,5 @@ def give_a_name_file():
     with open('replacement_fantasy.txt', 'a', encoding='utf-8') as f:
         f.write(f'{name_file} \n')
 
-give_a_name_file()
+if __name__ == '__main__':
+    give_a_name_file()

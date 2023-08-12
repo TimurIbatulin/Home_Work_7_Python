@@ -44,7 +44,9 @@ def generalization_file(digit_file: str, name_file: str):
         for h in final_file:
             f.write(f'{h}, \n')
 
-generalization_file('fn.txt', 'replacement_fantasy.txt')        
+
+if __name__ == '__main__':
+    generalization_file('fn.txt', 'replacement_fantasy.txt')        
 
 
 

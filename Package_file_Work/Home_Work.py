@@ -37,7 +37,8 @@ def home_work(*, way_to_files: str, name_file: str, count_digit_in_name: int, ex
                 os.replace(os.path.join(way_to_files, file_1), os.path.join(way_to_files, new_name))
 
 
-home_work(way_to_files='/Volumes/Samsung_T5/Python/Home_Work_7/all', name_file='tutu', count_digit_in_name=3, extension_file='txt', disired_extension='eee', letters_range=[3,5])
+if __name__ == '__main__':
+    home_work(way_to_files='/Volumes/Samsung_T5/Python/Home_Work_7/all', name_file='tutu', count_digit_in_name=3, extension_file='txt', disired_extension='eee', letters_range=[3,5])
 
 
         

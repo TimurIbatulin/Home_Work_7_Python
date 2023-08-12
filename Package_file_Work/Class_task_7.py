@@ -33,8 +33,6 @@ def sorted_file(way: str):
                     os.replace(os.path.join(way, i), os.path.join(way_new, i))
 
 
-sorted_file('/Volumes/Samsung_T5/Python/Home_Work_7/all')
+if __name__ == '__main__':
+    sorted_file('/Volumes/Samsung_T5/Python/Home_Work_7/all')
 
-
-# /Volumes/Samsung_T5/Python/Home_Work_7/all/1.mp4
-ss

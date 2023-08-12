@@ -37,6 +37,7 @@ def file_way(way: str):
                 with open(finish, 'w', encoding='utf-8') as f1:
                     f1.write(finish)
 
-file_way('/Volumes/Samsung_T5/Python/Home_Work_7/fn2.txt')
-# file_way('/Volumes/Samsung_T5/Python/Home_Work_7')
+if __name__ == '__main__':
+    file_way('/Volumes/Samsung_T5/Python/Home_Work_7/fn2.txt')
+    file_way('/Volumes/Samsung_T5/Python/Home_Work_7')
  

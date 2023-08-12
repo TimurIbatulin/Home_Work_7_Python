@@ -14,5 +14,5 @@ def fill_in_the_file(number_of_line: int, file_name: str):
             f.write(f'{line_for_file}, \n')
         z += 1
 
-
-fill_in_the_file(1, 'fn.txt')
+if __name__ == '__main__':
+    fill_in_the_file(1, 'fn.txt')

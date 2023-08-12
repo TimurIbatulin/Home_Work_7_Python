@@ -18,6 +18,6 @@ def file_genereid(**kwargs):
         auto_create_file(extension_file=exten, min_len=4, max_len=4, min_byte=4, max_byte=4, quantity_file=count_file)
 
 
-
-file_genereid(txt = 1, doc = 2)
+if __name__ == '__main__':
+    file_genereid(txt = 1, doc = 2)
 
